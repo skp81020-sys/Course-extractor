@@ -4,7 +4,6 @@ COPY . .
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     ffmpeg \
-    aria2 \
     wget \
     build-essential \
     cmake \
